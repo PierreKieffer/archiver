@@ -1,6 +1,6 @@
 # archiver 
 
-Basic zip file archiver 
+Basic implementation of zip file archiver 
 
 ## Download
 ```bash 
