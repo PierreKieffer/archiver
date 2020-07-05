@@ -68,7 +68,7 @@ func GenerateArchive(archiveWriter *zip.Writer, folderPath, subDir string) error
 			// Recursive
 
 			// Update base folder path
-			newFolderPath := folderPath + "/" + file.Name() + "/"
+			newFolderPath := folderPath + file.Name() + "/"
 
 			// Update sub directory name
 			newSubDir := subDir + file.Name() + "/"
